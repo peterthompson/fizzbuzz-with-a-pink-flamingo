@@ -18,3 +18,11 @@ npm test
 ```
 npm start
 ```
+
+### Run server
+
+This will start the server on port 3000.
+
+```
+npm run server
+```
