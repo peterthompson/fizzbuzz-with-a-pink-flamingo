@@ -34,3 +34,15 @@ The server will return the program result on the route "/".
 The server will return a specific number result on the route "/:number".
 
 The server is a basic implementation and does not include error handling, reporting, monitoring or logging.
+
+## Using Docker
+
+Create the container image.
+```
+docker build -t pink-flamingo .
+```
+
+Run the container.
+```
+docker run -p 3000:3000 --rm pink-flamingo
+```
