@@ -3,7 +3,7 @@ import pinkFlamingo from "../pink-flamingo";
 describe("pink-flamingo", () => {
   describe("Fibonacci number", () => {
     it("should return Flamingo when the number is not a multiple of three and five", () => {
-      const numbers = [0, 1, 1, 2, 8, 13, 21, 34, 55, 89];
+      const numbers = [1, 1, 2, 8, 13, 21, 34, 55, 89];
 
       numbers.forEach(number =>
         expect(pinkFlamingo(number)).toEqual("Flamingo")
@@ -11,7 +11,7 @@ describe("pink-flamingo", () => {
     });
 
     it("should return Pink Flamingo when the number is a multiple of three and five", () => {
-      const numbers = [3, 5];
+      const numbers = [0, 6765];
 
       numbers.forEach(number =>
         expect(pinkFlamingo(number)).toEqual("Pink Flamingo")

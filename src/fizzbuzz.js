@@ -1,9 +1,7 @@
 function fizzbuzz(number) {
   let result;
 
-  if (number === 0) {
-    result = 0;
-  } else if (number % 15 === 0) {
+  if (number % 15 === 0) {
     result = "FizzBuzz";
   } else if (number % 5 === 0) {
     result = "Buzz";
