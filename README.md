@@ -26,3 +26,11 @@ This will start the server on port 3000.
 ```
 npm run server
 ```
+
+## Server functionality
+
+The server will return the program result on the route "/".
+
+The server will return a specific number result on the route "/:number".
+
+The server is a basic implementation and does not include error handling, reporting, monitoring or logging.
